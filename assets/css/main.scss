@@ -577,6 +577,10 @@ nav input.nicer {
             padding-left: 1em;
         }
 
+        &.spoken {
+            display: none;
+        }
+
         &.matrix {
             @include matrix-table();
         }
